@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        
+        "module": "CommonJS",
+        
+        // 체크 안하면 자바스크립트랑 다를바 없음.
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+
+        // js도 허용할지.
+        "allowJs": true,
+        "checkJs": true,
+
+        "declaration": true,
+
+        "lib": ["DOM", "ES5", "ES6", "ES2021"],
+
+        "outDir": "",
+
+        // target : js파일을 생성해주는 기준으로 기본값은 ES3임.
+        // ES2015 === ES6
+        "target": "ES6",
+
+        // d.ts 경로 설정
+        "types": [],
+
+        // typescript 대부분 기능.
+        "strict": true,
+
+        "watch": true
+
+    },
+    // 어떤 파일 컴파일 할 지.
+    "include" : ["./lecture.ts"],
+
+    // 제외할 파일.
+    "exclude" : ["*.js"],
+
+    //"extends" : []
+}
