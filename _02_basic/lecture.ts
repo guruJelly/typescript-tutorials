@@ -1,3 +1,10 @@
+// node.js 설치
+// node -v
+// npm -v 확인
+// npm i typescript
+// tsc 이름.ts
+// npx tsc -w
+
 
 // 약타입 언어의 장점.
 // let variable = '3';
